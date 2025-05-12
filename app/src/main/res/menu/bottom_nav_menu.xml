@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/nav_home"
+        android:title="Избранное"
+        app:titleTextColor="?attr/colorOnPrimary"/>
+    <item
+        android:id="@+id/nav_exchangers"
+        android:icon="@drawable/nav_bankrate"
+        android:title="Обменники"/>
+
+    <item
+        android:id="@+id/nav_calculator"
+        android:icon="@drawable/nav_calculator"
+        android:title="Калькулятор"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/nav_settings"
+        android:title="Прочее" />
+</menu>

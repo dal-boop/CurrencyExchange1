@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyExchange</string>
+    <string name="flag">Флаг валюты</string>
+    <string name="bank_logo">Логотип банка</string>
+</resources>

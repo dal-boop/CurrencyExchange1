@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        android:key="pref_dark_theme"
+        android:title="Тёмная тема"
+        android:icon="@drawable/ic_dark_mode"
+        app:iconSpaceReserved="true"/>
+
+    <ListPreference
+        android:key="pref_font_size"
+        android:title="Размер шрифта"
+        android:entries="@array/font_size_labels"
+        android:entryValues="@array/font_size_values"
+        android:icon="@drawable/ic_font_size"
+        app:iconSpaceReserved="true"/>
+
+    <SwitchPreferenceCompat
+        android:key="pref_auto_hide_appbar"
+        android:title="Автоскрытие AppBar при скролле"
+        android:icon="@drawable/ic_scroll_hide"
+        app:iconSpaceReserved="true"/>
+
+</PreferenceScreen>
+

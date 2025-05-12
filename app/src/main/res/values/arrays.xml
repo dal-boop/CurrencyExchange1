@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_size_labels">
+        <item>Маленький</item>
+        <item>Средний</item>
+        <item>Большой</item>
+    </string-array>
+    <string-array name="font_size_values">
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+    </string-array>
+    <string-array name="accent_color_labels">
+        <item>Синяя</item>
+        <item>Зелёная</item>
+        <item>Красная</item>
+        <item>Оранжевая</item>
+    </string-array>
+    <string-array name="accent_color_values">
+        <item>blue</item>
+        <item>green</item>
+        <item>red</item>
+        <item>orange</item>
+    </string-array>
+</resources>

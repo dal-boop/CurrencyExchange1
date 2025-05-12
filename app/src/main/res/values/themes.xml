@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CurrencyExchange"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">?android:attr/isLightTheme</item>
+
+        <item name="android:colorBackground">@color/colorBackground</item>
+
+        <item name="colorSurface">@color/colorSurface</item>
+
+        <item name="android:textColorPrimary">@color/colorOnBackground</item>
+        <item name="android:textColorSecondary">@color/colorOnSurface</item>
+
+        <item name="textAppearanceBody1">
+            @style/TextAppearance.CurrencyExchange.Body.Medium
+        </item>
+        <item name="textAppearanceHeadline6">
+            @style/TextAppearance.CurrencyExchange.Body.Medium
+        </item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="Theme.CurrencyExchange.FontSmall"
+        parent="Theme.CurrencyExchange">
+        <item name="textAppearanceBody1">
+            @style/TextAppearance.CurrencyExchange.Body.Small
+        </item>
+        <item name="textAppearanceHeadline6">
+            @style/TextAppearance.CurrencyExchange.Body.Small
+        </item>
+    </style>
+
+    <style name="Theme.CurrencyExchange.FontLarge"
+        parent="Theme.CurrencyExchange">
+        <item name="textAppearanceBody1">
+            @style/TextAppearance.CurrencyExchange.Body.Large
+        </item>
+        <item name="textAppearanceHeadline6">
+            @style/TextAppearance.CurrencyExchange.Body.Large
+        </item>
+    </style>
+
+</resources>

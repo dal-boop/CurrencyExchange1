@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#42aaff</color>
+    <color name="grey_dark">#FF424242</color>
+    <color name="grey_light">#FFB3B3B3</color>
+
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorOnPrimary">@color/black</color>
+
+    <color name="colorBackground">@color/white</color>
+    <color name="colorOnBackground">@color/black</color>
+
+    <color name="colorSurface">@color/white</color>
+    <color name="colorOnSurface">@color/black</color>
+
+    <color name="chart_line_color">#FFFF0000</color>
+</resources>
